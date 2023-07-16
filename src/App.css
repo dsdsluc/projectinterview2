@@ -36,3 +36,147 @@
     transform: rotate(360deg);
   }
 }
+
+
+.header {
+  display: flex;
+  padding: 10px;
+  background-color: orange;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 28px ;
+ 
+}
+.logo  > a {
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.menu__ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  font-size: 18px;
+  
+}
+.menu__ul > li {
+  margin-right: 10px;
+}
+.menu__ul li > a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
+.active {
+  color: white !important;
+}
+
+.form {
+  padding: 40px;
+  max-width: 800px;
+  border: 1px solid #ddd;
+  margin: 60px auto;
+  border-radius: 10px;
+  
+}
+.form .inner-title {
+  font-size: 28px; 
+  color: #000;
+  font-weight: 700;
+}
+.form > form {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 20px;
+}
+.form form > input {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  inline-size: none;
+  outline: none;
+  height: 40px;
+  border-radius: 10px ;
+}
+
+.button {
+  width: 80px;
+  height: 40px;
+  border: 1px solid #000;
+  background-color: orange;
+  font-weight: 700;
+  cursor: pointer;
+}
+.button:hover{
+  color: #fff;
+  border: none;
+}
+
+
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: orange;
+}
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.button-excercise {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #bcb4b4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.table {
+  border: 1px solid #ddd;
+  min-width: 800px;
+  border-collapse: collapse;
+}
+
+.thead > tr {
+  border: 1px solid #ddd;
+}
+th {
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+.thead tr > th:nth-child(2n+1){
+  width: 200px ;
+}
+.tbody {
+  text-align: center;
+}
+.tbody tr > td {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+.true{
+  padding: 3px 5px;
+  border-radius: 5px;
+  background-color: green;
+  margin-left: 5px;
+  color: white;
+
+}
+.false{
+  padding: 3px 5px;
+  border-radius: 5px;
+  background-color: red;
+  margin-left: 5px;
+  color: white;
+
+}
+.selected--false {
+  color: red;
+}
+.selected--right {
+  color: green;
+}
